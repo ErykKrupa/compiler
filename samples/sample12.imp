@@ -1,0 +1,8 @@
+DECLARE
+    a(10:20), b, c
+BEGIN
+    b ASSIGN 10;
+    c ASSIGN 11;
+    a(c) ASSIGN 1;
+    a(b) ASSIGN a(c);
+END

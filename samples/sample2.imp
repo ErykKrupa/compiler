@@ -1,0 +1,32 @@
+DECLARE
+    a, b, c(10:120), d(0:0)
+BEGIN
+    READ a;
+    WRITE a;
+    b ASSIGN 222;
+    WRITE b;
+    c(120) ASSIGN 7;
+    WRITE c(120);
+    c(9) ASSIGN 34;
+    WRITE c(9);
+    WRITE b;
+    READ d(0);
+    WRITE d(0);
+    c(a) ASSIGN 3;
+    WRITE c(a);
+    a ASSIGN a PLUS a;
+    c(a) ASSIGN c(3);
+    WRITE c(a);
+    c(a) ASSIGN c(a);
+    WRITE c(a);
+    d(0) ASSIGN a;
+    WRITE d(0);
+    a ASSIGN b;
+    WRITE b;
+    c(10) ASSIGN c(120);
+    WRITE c(10);
+    b ASSIGN c(10);
+    WRITE b;
+    a ASSIGN b;
+    WRITE b;
+END

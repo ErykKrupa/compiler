@@ -1,0 +1,19 @@
+DECLARE
+    a, b
+BEGIN
+    WHILE 1 EQ 1 DO
+        READ a;
+        READ b;
+        FOR c FROM a TO b DO
+            FOR d FROM a TO b DO
+                WRITE 0;
+                FOR e FROM a DOWNTO b DO
+                    WRITE c;
+                    WRITE d;
+                    WRITE e;
+                    WRITE 999999;
+                ENDFOR
+            ENDFOR
+        ENDFOR
+    ENDWHILE
+END

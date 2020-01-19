@@ -1,0 +1,23 @@
+DECLARE
+    a, b, c(11:10)
+BEGIN
+    WHILE 1 EQ 1 DO
+        READ a;
+        READ b;
+        FOR c FROM a TO b DO
+            WRITE a;
+            WRITE b;
+            WRITE c;
+        ENDFOR
+        FOR c FROM a TO b DO
+            WRITE a;
+            WRITE b;
+            WRITE c;
+        ENDFOR
+        FOR c FROM a TO b DO
+            WRITE a;
+            WRITE b;
+            WRITE c;
+        ENDFOR
+    ENDWHILE
+END

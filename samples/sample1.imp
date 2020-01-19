@@ -1,0 +1,52 @@
+DECLARE
+    a, b, c
+BEGIN
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+    c ASSIGN a DIV b;
+    WRITE c;
+    c ASSIGN a MOD b;
+    WRITE c;
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+    c ASSIGN a DIV b;
+    WRITE c;
+    c ASSIGN a MOD b;
+    WRITE c;
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+    c ASSIGN a DIV b;
+    WRITE c;
+    c ASSIGN a MOD b;
+    WRITE c;
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+    c ASSIGN a DIV b;
+    WRITE c;
+    c ASSIGN a MOD b;
+    WRITE c;
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+    c ASSIGN a DIV b;
+    WRITE c;
+    c ASSIGN a MOD b;
+    WRITE c;
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+    c ASSIGN a DIV b;
+    WRITE c;
+    c ASSIGN a MOD b;
+    WRITE c;
+END

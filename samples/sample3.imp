@@ -1,0 +1,8 @@
+DECLARE
+    a, b, c
+BEGIN
+    READ a;
+    READ b;
+    c ASSIGN a TIMES b;
+    WRITE c;
+END

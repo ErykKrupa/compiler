@@ -1,0 +1,20 @@
+DECLARE
+    a, one, zero
+BEGIN
+    zero ASSIGN 0;
+    one ASSIGN 1;
+    READ a;
+    WHILE a NEQ 0 DO
+        IF a LEQ 5 THEN
+            WRITE zero;
+        ELSE
+            WRITE one;
+            READ a;
+            WHILE a GE 10 DO
+                READ a;
+            ENDWHILE
+        ENDIF
+        READ a;
+    ENDWHILE
+
+END

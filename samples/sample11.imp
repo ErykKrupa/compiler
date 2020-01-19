@@ -1,0 +1,12 @@
+DECLARE
+    a, a(10:20)
+BEGIN
+    a ASSIGN 10;
+    WRITE a;
+    a(10) ASSIGN a;
+    WRITE a(10);
+    a(20) ASSIGN 777;
+    WRITE a(20);
+    a ASSIGN a PLUS a(a);
+    WRITE a;
+END

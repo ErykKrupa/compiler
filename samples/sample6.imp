@@ -1,0 +1,48 @@
+DECLARE
+    a, one, zero
+BEGIN
+    zero ASSIGN 0;
+    one ASSIGN 1;
+    READ a;
+    IF a LEQ 5 THEN
+        WRITE zero;
+        READ a;
+        IF a GE 5 THEN
+            WRITE zero;
+            READ a;
+            IF a LEQ 5 THEN
+                WRITE zero;
+            ELSE
+                WRITE one;
+            ENDIF
+        ELSE
+            WRITE one;
+            READ a;
+            IF a LEQ 5 THEN
+                WRITE zero;
+            ELSE
+                WRITE one;
+            ENDIF
+        ENDIF
+    ELSE
+        WRITE one;
+        READ a;
+        IF a NEQ -4 THEN
+            WRITE zero;
+            READ a;
+            IF a GEQ 10 THEN
+                WRITE zero;
+            ELSE
+                WRITE one;
+            ENDIF
+        ELSE
+            WRITE one;
+            READ a;
+            IF a LE 0 THEN
+                WRITE zero;
+            ELSE
+                WRITE one;
+            ENDIF
+        ENDIF
+    ENDIF
+END

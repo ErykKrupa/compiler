@@ -1,0 +1,16 @@
+DECLARE
+    a
+BEGIN
+    a ASSIGN -1;
+    a ASSIGN 10;
+    a ASSIGN -3;
+    a ASSIGN 0;
+    a ASSIGN -99999;
+    a ASSIGN 121212;
+    a ASSIGN -1000;
+    a ASSIGN 4;
+    a ASSIGN -66;
+    a ASSIGN 00;
+    a ASSIGN 1;
+    a ASSIGN -2;
+END
