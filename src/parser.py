@@ -68,8 +68,6 @@ class CompilerParser(Parser):
     def command(self, p):
         return For(Variable(p.IDENTIFIER), Value(p.value0), Value(p.value1), True, p.commands)
 
-    # TODO IDENTIFIER -> [1]
-
     @_("FOR IDENTIFIER FROM value DOWNTO value DO commands ENDFOR")
     def command(self, p):
         return For(Variable(p.IDENTIFIER), Value(p.value0), Value(p.value1), False, p.commands)
